@@ -1,10 +1,10 @@
 ---
-image: hero-slide-1-interior.jpg
-tag: التصميم الداخلي والديكور
-title: أحوّل مساحتك إلى <em>تحفة معمارية</em>
-sub: تصميم داخلي سكني وتجاري — رندر 3D ومخططات تنفيذية بأعلى دقة
-btn_text: تصفح أعمال الديكور
-btn_href: interior-design.html
+image: hero-slide-1-graphic.jpg
+tag: بوستر / إعلان إبداعي
+title: تصميم إعلاني <em>قوي</em>
+sub: أفكار إبداعية وتحويلها إلى تصاميم إعلانية قوية ومؤثرة
+btn_text: تصفح أعمال الجرافيك
+btn_href: graphic-design.html
 dur: 6
 
 ---
@@ -17,10 +17,10 @@ btn_href: graphic-design.html
 dur: 6
 
 ---
-image: hero-slide-3-exterior.jpg
-tag: التصميم الخارجي واللاندسكيب
-title: واجهات <em>مبهرة</em> وحدائق راقية
-sub: تصميم واجهات معمارية وتنسيق حدائق — رندر خارجي احترافي
-btn_text: تصفح التصميم الخارجي
-btn_href: exterior-design.html
+image: hero-slide-3-graphic.jpg
+tag: تصميمات خاصة بشركة/خدمة
+title: تصميم متكامل<em>لعلامتك</em> التجارية
+sub: من الهوية والمطبوعات إلى المواد الدعائية — كل التفاصيل في شكل بصري متناسق
+btn_text: تصفح أعمال الجرافيك
+btn_href: graphic-design.html
 dur: 6
