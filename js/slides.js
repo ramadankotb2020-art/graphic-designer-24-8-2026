@@ -1,14 +1,34 @@
+/* ══════════════════════════════════════════════
+   ✏️  عدّل هنا بس — الصور والفيديوهات
+   ══════════════════════════════════════════════
+
+   كل صورة أو فيديو فيها:
+     tag      → الكلام الصغير فوق العنوان
+     title    → العنوان الكبير
+     sub      → الكلام التحت
+     btn_text → نص الزرار
+     btn_href → رابط الزرار
+     dur      → مدة العرض بالثواني (للصور بس)
+
+   عشان تضيف صورة: انسخ block صورة وعدّل
+   عشان تضيف فيديو: انسخ block فيديو وعدّل
+   ══════════════════════════════════════════════ */
+
 window.HERO_SLIDES = [
+
+  /* ── صورة ١ ── */
   {
     type:     'image',
-    image:    'images/homepage/hero-slide-1-graphic.webp',
-    tag:      'بوستر / إعلان إبداعي',
-    title:    'تصميم إعلاني <em>قوي</em>',
-    sub:      'أفكار إبداعية وتحويلها إلى تصاميم إعلانية قوية ومؤثرة',
-    btn_text: 'تصفح أعمال الجرافيك',
-    btn_href: 'graphic-design.html',
+    image:    'images/homepage/hero-slide-1-interior.webp',
+    tag:      'التصميم الداخلي والديكور',
+    title:    'أحوّل مساحتك إلى <em>تحفة معمارية</em>',
+    sub:      'تصميم داخلي سكني وتجاري — رندر 3D ومخططات تنفيذية بأعلى دقة',
+    btn_text: 'تصفح أعمال الديكور',
+    btn_href: 'interior-design.html',
     dur:      6
   },
+
+  /* ── صورة ٢ ── */
   {
     type:     'image',
     image:    'images/homepage/hero-slide-2-graphic.webp',
@@ -19,14 +39,39 @@ window.HERO_SLIDES = [
     btn_href: 'graphic-design.html',
     dur:      6
   },
+
+  /* ── صورة ٣ ── */
   {
     type:     'image',
-    image:    'images/homepage/hero-slide-3-graphic.webp',
-    tag:      'تصميمات خاصة بشركة/خدمة',
-    title:    'تصميم متكامل <em>لعلامتك</em> التجارية',
-    sub:      'من الهوية والمطبوعات إلى المواد الدعائية — كل التفاصيل في شكل بصري متناسق',
-    btn_text: 'تصفح أعمال الجرافيك',
-    btn_href: 'graphic-design.html',
+    image:    'images/homepage/hero-slide-3-exterior.webp',
+    tag:      'التصميم الخارجي واللاندسكيب',
+    title:    'واجهات <em>مبهرة</em> وحدائق راقية',
+    sub:      'تصميم واجهات معمارية وتنسيق حدائق — رندر خارجي احترافي',
+    btn_text: 'تصفح التصميم الخارجي',
+    btn_href: 'exterior-design.html',
     dur:      6
   },
+
+  /* ── فيديو ١ ── */
+  {
+    type:     'video',
+    src:      'videos/1.mp4',
+    tag:      'رمضان قطب | ستوديو التصميم',
+    title:    'أحوّل مساحتك إلى <em>تحفة معمارية</em>',
+    sub:      'تصميم داخلي سكني وتجاري — رندر 3D ومخططات تنفيذية بأعلى دقة',
+    btn_text: 'تصفح أعمال الديكور',
+    btn_href: 'interior-design.html'
+  },
+
+  /* ── فيديو ٢ ── */
+  {
+    type:     'video',
+    src:      'videos/2.mp4',
+    tag:      'رمضان قطب | ستوديو التصميم',
+    title:    'إبداع بلا حدود <em>في كل تفصيلة</em>',
+    sub:      'من الفكرة للتنفيذ — تصميم يعكس شخصيتك',
+    btn_text: 'تواصل معنا',
+    btn_href: 'contact.html'
+  },
+
 ];
