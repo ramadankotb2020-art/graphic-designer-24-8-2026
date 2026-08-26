@@ -5,17 +5,17 @@
 غيّر أي ملف بنفس الاسم (بنفس الامتداد أو غيّره وعدّل المسار في index.html)
 وهتلاقي التغيير ظاهر في المكان ده بالظبط.
 
-hero-slide-1-interior.jpg              → أول شريحة في السلايدر الكبير فوق (تصميم داخلي)
-hero-slide-2-graphic.jpg               → تاني شريحة (جرافيك وهوية بصرية)
-hero-slide-3-exterior-PLACEHOLDER.jpg  → تالت شريحة (خارجي ولاندسكيب) — ⚠️ صورة مؤقتة، لسه مفيش صور حقيقية لمشاريع خارجي مرفوعة
-about-portrait.jpg                     → الصورة الجانبية في قسم "عن رمضان قطب" تحت السلايدر
+hero-slide-1-graphic.webp               → أول شريحة في السلايدر الكبير فوق (جرافيك وهوية بصرية)
+hero-slide-2-graphic.webp                → تاني شريحة (جرافيك وهوية بصرية)
+hero-slide-3-exterior.webp                → تالت شريحة (خارجي ولاندسكيب)
+about-portrait.webp                      → الصورة الجانبية في قسم "عن رمضان قطب" تحت السلايدر
 
-service-01-interior-residential.jpg    → كارت "التصميم الداخلي السكني" في شبكة الخدمات
-service-02-interior-commercial.jpg     → كارت "التصميم الداخلي التجاري"
-service-03-exterior-landscape-PLACEHOLDER.jpg → كارت "الواجهات المعمارية واللاندسكيب" — ⚠️ صورة مؤقتة برضو
-service-04-graphic-identity.jpg        → كارت "الهوية البصرية والشعارات"
-service-05-graphic-print.jpg           → كارت "المطبوعات والتغليف"
-service-06-graphic-social.jpg          → كارت "حملات السوشيال ميديا"
+service-01-graphic-branding.webp         → كارت "الهوية البصرية والشعارات" في شبكة الخدمات
+service-02-graphic-print.webp            → كارت "المطبوعات والتغليف" في شبكة الخدمات
+service-03-exterior-landscape.webp        → كارت "الواجهات المعمارية واللاندسكيب"
+service-04-graphic-identity.webp         → كارت "الهوية البصرية والشعارات"
+service-05-graphic-print.webp            → كارت "المطبوعات والتغليف"
+service-06-graphic-social.webp           → كارت "حملات السوشيال ميديا"
 
 ملاحظة: الصور دي منفصلة تمامًا عن صور المشاريع (images/projects-by-name/)
 وعن نظام الفولدرات التلقائي — تغييرها هنا بيأثر على الصفحة الرئيسية بس،

@@ -77,9 +77,7 @@
           <div class="form-group">
             <label>القسم *</label>
             <select id="pDiscipline" class="form-control">
-              <option value="interior">تصميم داخلي</option>
-              <option value="exterior">تصميم خارجي ولاندسكيب</option>
-              <option value="graphic">تصميم جرافيك وهوية</option>
+              <option value="graphic">تصميم جرافيك</option>
             </select>
           </div>
 
@@ -196,7 +194,7 @@
       e.preventDefault();
 
       const title    = document.getElementById('pTitle').value.trim();
-      const disc     = document.getElementById('pDiscipline')?.value || 'interior';
+      const disc     = document.getElementById('pDiscipline')?.value || 'graphic';
       const category = document.getElementById('pCategory').value.trim();
       const cover    = document.getElementById('pCover').value.trim();
       const galleryRaw = document.getElementById('pGallery').value.trim();

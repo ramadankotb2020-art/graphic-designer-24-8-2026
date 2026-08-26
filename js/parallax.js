@@ -2,7 +2,7 @@
   'use strict';
 
   /* ══════════════════════════════════════════════════════════════
-     PARALLAX BANNERS — ديكور + جرافيك
+     PARALLAX BANNERS — جرافيك + هوية بصرية
      • ديسكتوب:  فيديو خلفية (mute + loop + lazy + pause off-screen)
      • موبايل / توفير بيانات / reduced-motion: صورة (أخف)
      • الصورة بتتغير كل ساعة + fallback لو الصورة ناقصة
@@ -15,13 +15,13 @@
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.innerWidth <= 768;
   const useVideo = !reduced && !saveData && !isMobile;   /* فيديو للديسكتوب بس */
 
-  const elInterior = document.getElementById('parallax-img-interior');
+  const elBanner = document.getElementById('parallax-img-graphic');
   const elGraphic  = document.getElementById('parallax-img-graphic');
-  if (!elInterior && !elGraphic) return;
+  if (!elBanner && !elGraphic) return;
 
   /* فيديو لكل تخصص (تقدر تغيّر المسارات من هنا) */
   const VIDEOS = {
-    interior: 'videos/hero-bg.mp4',
+    graphic: 'videos/hero-bg.mp4'.  # Keep video reference but note it is for graphic now,
     graphic:  'videos/2.mp4'
   };
 
@@ -124,7 +124,7 @@
   function initMobileParallax() {
     if (!isMobile || useVideo) return;
     const banners = [
-      { img: elInterior, banner: elInterior && elInterior.closest('.parallax-banner') },
+      { img: elBanner, banner: elBanner && elBanner.closest('.parallax-banner') },
       { img: elGraphic,  banner: elGraphic  && elGraphic.closest('.parallax-banner')  }
     ].filter(b => b.img && b.banner);
     if (!banners.length) return;
@@ -148,13 +148,13 @@
 
   /* ─── Init ─── */
   function init() {
-    setupBanner(elInterior, 'interior', 0);
+    setupBanner(elBanner, 'graphic', 0);
     setupBanner(elGraphic,  'graphic',  3);
     initMobileParallax();
     /* كل ساعة: جدّد الصورة (للموبايل/الـ fallback) */
     setInterval(() => {
       if (!useVideo) {
-        loadFirstAvailable(elInterior, orderedCovers('interior', 0), true);
+        loadFirstAvailable(elBanner, orderedCovers('graphic', 0), true);
         loadFirstAvailable(elGraphic,  orderedCovers('graphic',  3), true);
       }
     }, HOUR);

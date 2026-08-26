@@ -37,9 +37,13 @@ function renderProjects(filter, containerAttr) {
   }
 
   container.innerHTML = filtered.map((p, i) => {
-    /* ─── صورة الغلاف مباشرة (موثوقة) — الصور المكسورة بيتحط ليها بديل أنيق تلقائيًا ─── */
+    /* ─── صورة الغلاف + مجموعة صور المشروع للتبديل ─── */
+    const projectImages = [
+      p.cover,
+      ...(p.gallery || [])
+    ].filter(Boolean);
     const mediaHTML = p.cover
-      ? `<img src="${p.cover}" class="project-img" alt="${p.title}" loading="lazy" decoding="async">`
+      ? `<img src="${p.cover}" class="project-img" alt="${p.title}" loading="lazy" decoding="async" data-images="${projectImages.join(',')}">`
       : '';
 
     return `
@@ -113,8 +117,8 @@ function buildFilterBar(discipline) {
 }
 
 /* ─── Initial render ─── */
-renderProjects(null, '[data-work-grid="interior"]');
-renderProjects(null, '[data-work-grid="exterior"]');
+renderProjects(null, '[data-work-grid="graphic"]');
+renderProjects(null, '[data-work-grid="graphic"]');
 renderProjects(null, '[data-work-grid="graphic"]');
 renderProjects(null, '[data-featured]');
 
@@ -133,8 +137,8 @@ buildFilterBar(null);
   if (!project) return;
 
   const disciplineLabels = {
-    interior: 'تصميم داخلي',
-    exterior: 'تصميم خارجي ولاندسكيب',
+    graphic: "تصميم جرافيك",
+    graphic: "تصميم جرافيك",
     graphic:  'تصميم جرافيك'
   };
 
@@ -391,9 +395,9 @@ buildFilterBar(null);
 
   function applyAll(fade) {
     const fn = fade ? fadeToImage : setImage;
-    fn(document.getElementById('parallax-img-1'), pickByHour(getCovers('interior'), 0));
+    fn(document.getElementById('parallax-img-1'), pickByHour(getCovers('graphic'), 0));
     fn(document.getElementById('parallax-img-2'), pickByHour(getCovers('graphic'),  5));
-    fn(document.getElementById('parallax-img-3'), pickByHour(getCovers('exterior'), 10));
+    fn(document.getElementById('parallax-img-3'), pickByHour(getCovers('graphic'), 10));
   }
 
   /* Lazy load via IntersectionObserver */
