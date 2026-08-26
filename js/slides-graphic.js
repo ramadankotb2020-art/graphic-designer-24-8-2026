@@ -1,6 +1,16 @@
 window.HERO_SLIDES = [
   {
     type:     'image',
+    image:    'images/homepage/hero-slide-1-graphic.webp',
+    tag:      'بوستر / إعلان إبداعي',
+    title:    'تصميم إعلاني <em>قوي</em>',
+    sub:      'أفكار إبداعية وتحويلها إلى تصاميم إعلانية قوية ومؤثرة',
+    btn_text: 'تصفح أعمال الجرافيك',
+    btn_href: 'graphic-design.html',
+    dur:      6
+  },
+  {
+    type:     'image',
     image:    'images/homepage/hero-slide-2-graphic.webp',
     tag:      'الجرافيك والهوية البصرية',
     title:    'هوية تجارية <em>لا تُنسى</em>',
@@ -10,12 +20,13 @@ window.HERO_SLIDES = [
     dur:      6
   },
   {
-    type:     'video',
-    src:      'videos/2.mp4',
-    tag:      'رمضان قطب | ستوديو الجرافيك',
-    title:    'إبداع بلا حدود <em>في كل تفصيلة</em>',
-    sub:      'من الفكرة للتنفيذ — تصميم يعكس شخصية علامتك التجارية',
-    btn_text: 'تواصل معنا',
-    btn_href: 'contact.html'
+    type:     'image',
+    image:    'images/homepage/hero-slide-3-graphic.webp',
+    tag:      'تصميمات خاصة بشركة/خدمة',
+    title:    'تصميم متكامل <em>لعلامتك</em> التجارية',
+    sub:      'من الهوية والمطبوعات إلى المواد الدعائية — كل التفاصيل في شكل بصري متناسق',
+    btn_text: 'تصفح أعمال الجرافيك',
+    btn_href: 'graphic-design.html',
+    dur:      6
   },
 ];
