@@ -4,314 +4,1363 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>رمضان قطب — جرافيك ديزاين وهوية بصرية | RK Graphic Studio</title>
-  <meta name="description" content="رمضان قطب — مصمم جرافيك ديزاين. تصميم شعارات، هويات بصرية شاملة، مطبوعات، تغليف، وحملات سوشيال ميديا.">
-  <meta name="keywords" content="رمضان قطب، مصمم جرافيك، هوية بصرية، تصميم شعارات، براندينج، مطبوعات، سوشيال ميديا">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="رمضان قطب — RK Graphic Studio">
+  <meta name="description" content="رمضان قطب — مصمم جرافيك ديزاين. شعارات، هويات بصرية، مطبوعات، تغليف، وحملات سوشيال ميديا.">
   <link rel="canonical" href="https://rk-graphic.com/">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://rk-graphic.com/">
-  <meta property="og:title" content="رمضان قطب — جرافيك ديزاين وهوية بصرية | RK Graphic Studio">
-  <meta property="og:description" content="رمضان قطب مصمم جرافيك ديزاين. شعارات، هويات بصرية، مطبوعات، وسوشيال ميديا.">
-  <meta property="og:image" content="images/brand/cover-banner-v2.png">
-  <meta property="og:locale" content="ar_EG">
-  <meta property="og:site_name" content="RK Graphic Studio">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="رمضان قطب — RK Graphic Studio">
-  <meta name="twitter:description" content="جرافيك ديزاين وهوية بصرية بأعلى مستويات الجودة.">
-  <meta name="twitter:image" content="images/brand/cover-banner-v2.png">
+  <meta property="og:image" content="images/homepage/hero-slide-1-graphic.webp">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="alternate icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="favicon.svg">
-  <meta name="theme-color" content="#c5a059">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "رمضان قطب",
-    "jobTitle": "مصمم جرافيك ديزاين",
-    "url": "https://rk-graphic.com",
-    "telephone": "+201112630681",
-    "knowsAbout": ["Graphic Design", "Visual Identity", "Brand Identity", "Print Design"]
-  }
-  </script>
+  <meta name="theme-color" content="#0a0a0a">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet"></noscript>
-  <link rel="preload" as="image" fetchpriority="high" type="image/webp" href="images/homepage/hero-slide-1-graphic.webp">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css?v=6">
-  <link rel="stylesheet" href="css/home.css?v=6">
-  <link rel="stylesheet" href="css/rk-fx.css?v=6">
+  <link rel="preload" as="image" fetchpriority="high" href="images/homepage/hero-slide-1-graphic.webp">
+
+  <style>
+/* ═══════════════════════════════════════════════════════════
+   RK GRAPHIC STUDIO — NEW IDENTITY v3.0
+   Concept: الفن الرقمي المظلم × الهوية العربية الجريئة
+   Signature: خط عمودي ذهبي حي + أرقام كبيرة تتحرك
+═══════════════════════════════════════════════════════════ */
+
+/* ─ TOKENS ─ */
+:root {
+  --ink:        #0a0a0a;
+  --paper:      #f5f0e8;
+  --paper-2:    #ede8df;
+  --gold:       #c5a059;
+  --gold-l:     #d4b878;
+  --gold-d:     #8a6d38;
+  --gold-glow:  rgba(197,160,89,.18);
+  --white:      #ffffff;
+  --line:       rgba(197,160,89,.15);
+  --line-2:     rgba(197,160,89,.08);
+  --muted:      #6b6560;
+  --muted-2:    #9b9590;
+
+  --ease:       cubic-bezier(.16,1,.3,1);
+  --spring:     cubic-bezier(.34,1.56,.64,1);
+}
+
+/* ─ BASE ─ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  font-family:'Cairo',sans-serif;
+  background:#0a0a0a;
+  color:var(--paper);
+  direction:rtl;
+  line-height:1.7;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;font-family:inherit;border:none;background:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:3px}
+
+/* ─ NOISE TEXTURE ─ */
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events:none;
+  z-index:9998;
+  opacity:.4;
+}
+
+/* ─ LAYOUT ─ */
+.wrap{max-width:1400px;margin:0 auto;padding:0 48px}
+@media(max-width:768px){.wrap{padding:0 20px}}
+
+/* ─ LOADER ─ */
+#loader{
+  position:fixed;inset:0;z-index:99999;
+  background:#0a0a0a;
+  display:flex;align-items:center;justify-content:center;
+  flex-direction:column;gap:32px;
+  transition:opacity .6s var(--ease),visibility .6s;
+}
+#loader.out{opacity:0;visibility:hidden;pointer-events:none}
+.loader-logo{
+  font-size:56px;font-weight:900;letter-spacing:-4px;
+  color:var(--white);
+  animation:logoPulse 1.4s ease-in-out infinite alternate;
+}
+.loader-logo span{color:var(--gold)}
+.loader-track{width:240px;height:1px;background:rgba(255,255,255,.1);overflow:hidden}
+.loader-fill{
+  height:100%;background:linear-gradient(to left,var(--gold-d),var(--gold),var(--gold-l));
+  animation:loadBar .8s var(--ease) forwards;
+  transform-origin:right;transform:scaleX(0);
+}
+@keyframes logoPulse{from{opacity:.6}to{opacity:1}}
+@keyframes loadBar{to{transform:scaleX(1)}}
+
+/* ─ HEADER ─ */
+.hdr{
+  position:fixed;top:0;inset-inline:0;z-index:1000;
+  padding:24px 0;
+  transition:padding .4s var(--ease),background .4s,border-color .4s;
+  border-bottom:1px solid transparent;
+}
+.hdr.scrolled{
+  padding:14px 0;
+  background:rgba(10,10,10,.85);
+  backdrop-filter:blur(24px) saturate(1.8);
+  border-bottom-color:var(--line);
+}
+.hdr-inner{display:flex;justify-content:space-between;align-items:center;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.logo-box{
+  width:44px;height:44px;
+  background:var(--gold);
+  color:#0a0a0a;
+  font-weight:900;font-size:16px;letter-spacing:.5px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:4px;
+  position:relative;overflow:hidden;
+}
+.logo-box::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(255,255,255,.25) 0%,transparent 60%);
+}
+.logo-text span{display:block;color:var(--white);font-weight:800;font-size:15px;line-height:1.2}
+.logo-text small{display:block;color:var(--gold);font-size:8px;letter-spacing:3px;text-transform:uppercase}
+
+.nav{display:flex;align-items:center;gap:6px}
+.nav a{
+  color:rgba(255,255,255,.55);
+  font-size:13px;font-weight:600;
+  padding:8px 16px;border-radius:6px;
+  transition:color .2s,background .2s;
+  white-space:nowrap;
+}
+.nav a:hover{color:var(--white);background:rgba(255,255,255,.06)}
+.nav a.on{color:var(--gold)}
+
+.hdr-cta a{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--gold);color:#0a0a0a;
+  font-weight:800;font-size:13px;
+  padding:10px 24px;border-radius:6px;
+  transition:background .2s,transform .2s;
+}
+.hdr-cta a:hover{background:var(--gold-l);transform:translateY(-1px)}
+
+.burger{
+  display:none;width:40px;height:40px;
+  border:1px solid rgba(255,255,255,.15);border-radius:6px;
+  flex-direction:column;align-items:center;justify-content:center;gap:5px;
+}
+.burger span{display:block;width:20px;height:1.5px;background:var(--white);transition:.3s var(--ease);transform-origin:center}
+.burger.open span:nth-child(1){transform:rotate(45deg) translate(4.5px,4.5px)}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.burger.open span:nth-child(3){transform:rotate(-45deg) translate(4.5px,-4.5px)}
+
+@media(max-width:1024px){
+  .nav{
+    position:fixed;top:0;right:-100%;width:min(320px,82vw);height:100dvh;
+    background:#111;flex-direction:column;align-items:flex-start;justify-content:center;
+    padding:48px 32px;gap:8px;transition:right .4s var(--ease);
+    border-left:1px solid var(--line);z-index:999;
+  }
+  .nav.open{right:0}
+  .nav a{font-size:18px;width:100%;padding:12px 0}
+  .burger{display:flex}
+  .hdr-cta{display:none}
+}
+
+/* ─ HERO ─ */
+.hero{
+  position:relative;
+  height:100dvh;min-height:700px;max-height:100vh;
+  overflow:hidden;
+  display:flex;align-items:flex-end;
+  padding-bottom:80px;
+  isolation:isolate;
+}
+
+/* Slides */
+.hero-slides{position:absolute;inset:0;z-index:0;overflow:hidden}
+.h-slide{
+  position:absolute;inset:0;
+  opacity:0;transition:opacity 1.4s ease-in-out;
+}
+.h-slide.on{opacity:1}
+.h-slide-img{
+  position:absolute;inset:0;
+  background-size:cover;background-position:center;
+  transform:scale(1);
+  transition:transform 8s linear;
+  will-change:transform;
+}
+.h-slide.on .h-slide-img{transform:scale(1.04)}
+
+/* Dark gradient overlay */
+.hero-veil{
+  position:absolute;inset:0;z-index:2;
+  background:
+    linear-gradient(to top, rgba(0,0,0,.92) 0%, rgba(0,0,0,.5) 40%, rgba(0,0,0,.2) 100%),
+    linear-gradient(to right, rgba(0,0,0,.6) 0%, transparent 60%);
+  pointer-events:none;
+}
+
+/* VERTICAL GOLD LINE — الـ Signature */
+.hero-line{
+  position:absolute;
+  right:15%;top:0;bottom:0;
+  width:1px;
+  background:linear-gradient(to bottom,transparent 0%,var(--gold) 20%,var(--gold) 80%,transparent 100%);
+  z-index:3;opacity:.4;
+  animation:linePulse 3s ease-in-out infinite alternate;
+}
+@keyframes linePulse{
+  from{opacity:.2;transform:scaleY(.95)}
+  to{opacity:.6;transform:scaleY(1)}
+}
+
+/* Hero content */
+.hero-body{
+  position:relative;z-index:10;
+  width:100%;
+}
+.hero-body .wrap{display:flex;flex-direction:column;gap:0}
+
+.h-tag{
+  display:inline-flex;align-items:center;gap:10px;
+  color:var(--gold);font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+  margin-bottom:24px;
+  opacity:0;animation:fadeUp .8s var(--ease) .3s both;
+}
+.h-tag::before{content:'';width:32px;height:1px;background:var(--gold);flex-shrink:0}
+
+.h-title{
+  font-size:clamp(48px,8vw,104px);
+  font-weight:900;line-height:1;letter-spacing:-4px;
+  color:var(--white);
+  margin-bottom:28px;
+  opacity:0;animation:fadeUp .8s var(--ease) .45s both;
+}
+.h-title em{font-style:normal;color:var(--gold)}
+.h-sub{
+  font-size:clamp(15px,1.8vw,19px);
+  color:rgba(255,255,255,.65);
+  line-height:1.75;max-width:520px;
+  margin-bottom:40px;
+  opacity:0;animation:fadeUp .8s var(--ease) .6s both;
+}
+.h-btns{
+  display:flex;gap:14px;flex-wrap:wrap;
+  opacity:0;animation:fadeUp .8s var(--ease) .75s both;
+}
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(28px)}
+  to{opacity:1;transform:none}
+}
+
+/* Hero counter row */
+.hero-nums{
+  position:absolute;
+  left:48px;top:50%;transform:translateY(-50%);
+  z-index:10;
+  display:flex;flex-direction:column;gap:32px;
+}
+.h-num{
+  display:flex;flex-direction:column;
+  border-right:2px solid var(--gold-d);
+  padding-right:16px;
+}
+.h-num-big{
+  font-size:44px;font-weight:900;line-height:1;
+  color:var(--white);letter-spacing:-2px;
+}
+.h-num-big span{color:var(--gold)}
+.h-num-label{font-size:10px;color:rgba(255,255,255,.45);letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+
+/* Dots */
+.hero-dots{
+  position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
+  z-index:10;display:flex;gap:8px;
+}
+.h-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:rgba(255,255,255,.25);
+  transition:all .35s var(--ease);border:none;padding:0;
+}
+.h-dot.on{background:var(--gold);width:24px;border-radius:3px}
+
+/* Hero scroll */
+.hero-scroll{
+  position:absolute;bottom:32px;right:48px;z-index:10;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  color:rgba(255,255,255,.4);font-size:9px;letter-spacing:2px;text-transform:uppercase;
+}
+.hero-scroll-line{
+  width:1px;height:52px;
+  background:linear-gradient(to bottom,var(--gold),transparent);
+  animation:scrollAnim 2s ease-in-out infinite;
+}
+@keyframes scrollAnim{0%,100%{opacity:.3;transform:scaleY(1)}50%{opacity:.9;transform:scaleY(1.1)}}
+
+@media(max-width:900px){
+  .hero-nums{display:none}
+  .hero-scroll{display:none}
+  .hero-line{display:none}
+  .h-btns{flex-direction:column;max-width:300px}
+  .h-title{letter-spacing:-2px}
+}
+
+/* ─ BUTTONS ─ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-weight:700;font-size:14px;letter-spacing:.3px;
+  padding:15px 36px;border-radius:6px;border:1px solid transparent;
+  transition:background .25s var(--ease),color .25s var(--ease),
+    border-color .25s var(--ease),transform .2s,box-shadow .25s;
+  white-space:nowrap;cursor:pointer;
+}
+.btn:active{transform:scale(.98)}
+.btn-gold{background:var(--gold);color:#0a0a0a;border-color:var(--gold)}
+.btn-gold:hover{background:var(--gold-l);border-color:var(--gold-l);transform:translateY(-2px);box-shadow:0 8px 32px rgba(197,160,89,.3)}
+.btn-border{background:transparent;color:var(--gold);border-color:rgba(197,160,89,.3)}
+.btn-border:hover{border-color:var(--gold);background:var(--gold-glow);transform:translateY(-2px)}
+.btn-lg{padding:18px 48px;font-size:16px}
+
+/* ─ MARQUEE STRIP ─ */
+.marquee-strip{
+  background:var(--gold);
+  padding:14px 0;
+  overflow:hidden;
+  position:relative;z-index:5;
+}
+.marquee-track{
+  display:flex;gap:0;
+  animation:marquee 20s linear infinite;
+  white-space:nowrap;width:max-content;
+}
+.marquee-item{
+  display:flex;align-items:center;gap:32px;
+  padding:0 32px;
+  color:#0a0a0a;font-weight:800;font-size:13px;letter-spacing:2px;text-transform:uppercase;
+}
+.marquee-dot{width:6px;height:6px;border-radius:50%;background:rgba(10,10,10,.35);flex-shrink:0}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ─ ABOUT SECTION ─ */
+.about-sec{
+  padding:140px 0;
+  position:relative;overflow:hidden;
+}
+.about-sec::before{
+  content:'';position:absolute;
+  top:0;right:0;
+  width:50%;height:100%;
+  background:linear-gradient(to left,rgba(197,160,89,.03),transparent);
+  pointer-events:none;
+}
+.about-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:100px;align-items:center;
+}
+@media(max-width:860px){.about-grid{grid-template-columns:1fr;gap:56px}}
+
+.about-eyebrow{
+  display:inline-flex;align-items:center;gap:12px;
+  color:var(--gold);font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+  margin-bottom:24px;
+}
+.about-eyebrow::before{content:'';width:32px;height:1px;background:var(--gold);flex-shrink:0}
+
+.about-heading{
+  font-size:clamp(36px,4.5vw,60px);
+  font-weight:900;line-height:1.1;letter-spacing:-2px;
+  color:var(--white);margin-bottom:28px;
+}
+.about-heading em{font-style:normal;color:var(--gold)}
+
+.about-body{
+  color:rgba(255,255,255,.6);font-size:17px;line-height:1.85;
+  margin-bottom:20px;
+}
+.about-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:48px;margin-top:28px}
+.about-tag{
+  border:1px solid rgba(197,160,89,.2);
+  color:var(--gold-l);font-size:12px;font-weight:600;letter-spacing:.5px;
+  padding:6px 18px;border-radius:30px;
+  transition:background .2s,border-color .2s;
+}
+.about-tag:hover{background:var(--gold-glow);border-color:var(--gold)}
+
+/* Photo side */
+.about-photo{position:relative}
+.about-img-wrap{
+  position:relative;
+  aspect-ratio:3/4;overflow:hidden;
+  border-radius:20px;
+  border:1px solid var(--line);
+}
+.about-img-wrap img{width:100%;height:100%;object-fit:cover;filter:saturate(.9)}
+.about-img-wrap::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(10,10,10,.6) 0%,transparent 60%);
+}
+.about-badge{
+  position:absolute;bottom:-24px;right:-24px;
+  background:var(--gold);color:#0a0a0a;
+  padding:24px 28px;border-radius:16px;
+  font-family:'Cairo',sans-serif;
+  box-shadow:0 20px 48px rgba(197,160,89,.35);
+}
+.about-badge .big{font-size:48px;font-weight:900;line-height:1;letter-spacing:-2px}
+.about-badge .lbl{font-size:12px;font-weight:700;letter-spacing:.5px;margin-top:4px;opacity:.8}
+
+/* XRAY line decor */
+.about-xray{
+  position:absolute;top:10%;left:-40px;
+  width:1px;height:80%;
+  background:linear-gradient(to bottom,transparent,var(--gold-d),transparent);
+  opacity:.3;
+}
+
+/* ─ SERVICES SECTION ─ */
+.services-sec{
+  padding:0 0 140px;
+}
+.sec-head{
+  padding:80px 0 64px;
+  display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;
+}
+.sec-eyebrow{
+  display:inline-flex;align-items:center;gap:12px;
+  color:var(--gold);font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+  margin-bottom:16px;
+}
+.sec-eyebrow::before{content:'';width:32px;height:1px;background:var(--gold);flex-shrink:0}
+.sec-title{
+  font-size:clamp(32px,4vw,56px);
+  font-weight:900;letter-spacing:-2px;color:var(--white);line-height:1.1;
+}
+.sec-title em{font-style:normal;color:var(--gold)}
+
+/* ══ BENTO GRID v2 ══
+   layout: 3 صور أفقية في الأعلى + شريط أرقام صغير في الأسفل
+══════════════════════════════════════════════════════════ */
+.bento{
+  display:grid;
+  grid-template-columns:5fr 4fr 3fr;
+  grid-template-rows:320px;
+  gap:10px;
+}
+.bento-a{grid-column:1;grid-row:1}
+.bento-b{grid-column:2;grid-row:1}
+.bento-c{grid-column:3;grid-row:1}
+.bento-d{display:none}
+.bento-e{display:none}
+.bento-f{display:none}
+
+@media(max-width:900px){
+  .bento{grid-template-columns:1fr 1fr;grid-template-rows:240px 240px}
+  .bento-a{grid-column:1 / span 2}
+  .bento-b{grid-column:1}
+  .bento-c{grid-column:2}
+}
+@media(max-width:560px){
+  .bento{grid-template-columns:1fr;grid-template-rows:220px 200px 180px}
+  .bento-a,.bento-b,.bento-c{grid-column:1}
+}
+
+.bento-card{
+  position:relative;overflow:hidden;
+  border-radius:14px;
+  background:#111;
+  border:1px solid rgba(255,255,255,.05);
+  cursor:pointer;text-decoration:none;display:block;
+  transition:transform .4s var(--ease),border-color .3s,box-shadow .4s;
+}
+.bento-card:hover{
+  transform:translateY(-5px);
+  border-color:rgba(197,160,89,.35);
+  box-shadow:0 20px 52px rgba(0,0,0,.55),0 0 28px rgba(197,160,89,.08);
+}
+/* صور أوضح — brightness أعلى */
+.bento-card img{
+  width:100%;height:100%;object-fit:cover;
+  filter:brightness(.78) saturate(.92);
+  transition:transform .7s var(--ease),filter .45s;
+}
+.bento-card:hover img{
+  transform:scale(1.06);
+  filter:brightness(1) saturate(1.08);
+}
+/* overlay خفيف فقط في الأسفل */
+.bento-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,
+    rgba(0,0,0,.86) 0%,
+    rgba(0,0,0,.15) 42%,
+    rgba(0,0,0,0) 100%);
+  z-index:1;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:20px 22px;
+  transition:background .35s;
+}
+.bento-card:hover .bento-overlay{
+  background:linear-gradient(to top,
+    rgba(0,0,0,.92) 0%,
+    rgba(0,0,0,.2) 50%,
+    rgba(0,0,0,0) 100%);
+}
+.bento-cat{
+  font-size:10px;font-weight:700;color:var(--gold);
+  letter-spacing:2.5px;text-transform:uppercase;margin-bottom:5px;
+}
+.bento-name{font-size:16px;font-weight:800;color:#fff;line-height:1.3}
+.bento-a .bento-name{font-size:20px}
+.bento-arrow{
+  position:absolute;top:16px;left:16px;z-index:2;
+  width:32px;height:32px;border-radius:50%;
+  background:transparent;border:1px solid transparent;
+  color:var(--gold);font-size:15px;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transform:translateY(6px);
+  transition:all .3s var(--ease);
+}
+.bento-card:hover .bento-arrow{
+  background:rgba(197,160,89,.15);border-color:rgba(197,160,89,.5);
+  opacity:1;transform:none;
+}
+
+/* ── شريط أرقام أنيق تحت الصور ── */
+.bento-strip{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  margin-top:10px;
+}
+@media(max-width:640px){.bento-strip{grid-template-columns:repeat(2,1fr)}}
+.bento-strip-item{
+  background:#0d0d0d;
+  border:1px solid rgba(255,255,255,.05);
+  border-radius:12px;
+  padding:22px 16px;
+  text-align:center;
+  position:relative;overflow:hidden;
+  transition:border-color .3s,background .3s;
+}
+.bento-strip-item:hover{
+  border-color:rgba(197,160,89,.2);
+  background:#111;
+}
+.bento-strip-item::before{
+  content:'';position:absolute;
+  top:-50px;right:-50px;
+  width:140px;height:140px;
+  background:radial-gradient(circle,rgba(197,160,89,.07) 0%,transparent 70%);
+  pointer-events:none;
+}
+.bento-strip-item .sn{
+  font-size:36px;font-weight:900;color:var(--gold);
+  letter-spacing:-2px;line-height:1;
+}
+.bento-strip-item .sl{
+  font-size:10px;color:rgba(255,255,255,.3);
+  letter-spacing:2px;text-transform:uppercase;margin-top:7px;
+}
+
+/* bento-stat مخفي (مش محتاجينه) */
+.bento-stat{display:none}
+
+/* ─ WORKS SECTION ─ */
+.works-sec{padding:140px 0}
+.works-sec .sec-head{padding-top:0}
+
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:16px;
+  margin-top:0;
+}
+@media(max-width:640px){.project-grid{grid-template-columns:1fr;gap:12px}}
+
+.proj-card{
+  position:relative;overflow:hidden;
+  border-radius:12px;background:#111;
+  border:1px solid rgba(255,255,255,.06);
+  display:flex;flex-direction:column;
+  text-decoration:none;
+  transition:transform .45s var(--ease),border-color .35s,box-shadow .45s;
+}
+.proj-card:hover{
+  transform:translateY(-8px);
+  border-color:rgba(197,160,89,.4);
+  box-shadow:0 24px 64px rgba(0,0,0,.5),0 0 32px rgba(197,160,89,.08);
+}
+.proj-media{
+  position:relative;overflow:hidden;
+  aspect-ratio:4/3;background:#0d0d0d;
+  max-height:280px;
+}
+.proj-media img{
+  width:100%;height:100%;object-fit:cover;
+  object-position:center top;
+  filter:brightness(.88) saturate(.9);
+  transition:transform .65s var(--ease),filter .4s;
+  display:block;
+}
+.proj-card:hover .proj-media img{transform:scale(1.06);filter:brightness(1) saturate(1.05)}
+.proj-media::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(0,0,0,.7) 0%,transparent 55%);
+  z-index:1;transition:opacity .4s;
+}
+.proj-badge{
+  position:absolute;top:14px;right:14px;z-index:2;
+  background:rgba(10,10,10,.8);color:var(--gold);
+  font-size:10px;font-weight:700;letter-spacing:.3px;
+  padding:5px 13px;border-radius:30px;
+  border:1px solid rgba(197,160,89,.25);
+  backdrop-filter:blur(8px);
+}
+.proj-cta{
+  position:absolute;bottom:18px;left:50%;z-index:2;
+  transform:translateX(-50%) translateY(12px);
+  background:var(--gold);color:#0a0a0a;
+  font-size:12px;font-weight:800;
+  padding:9px 24px;border-radius:6px;
+  white-space:nowrap;opacity:0;
+  transition:all .35s var(--spring);pointer-events:none;
+}
+.proj-card:hover .proj-cta{opacity:1;transform:translateX(-50%) translateY(0)}
+.proj-info{
+  padding:18px 20px 20px;
+  border-top:1px solid rgba(255,255,255,.05);
+  flex:1;display:flex;flex-direction:column;gap:4px;
+}
+.proj-info h3{color:var(--white);font-size:15px;font-weight:700;line-height:1.4}
+.proj-info p{color:var(--gold);font-size:10.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+
+/* filter bar */
+.filter-wrap{overflow-x:auto;padding-bottom:4px;margin-bottom:40px}
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px}
+.filter-bar button{
+  border:1px solid rgba(255,255,255,.1);
+  background:transparent;color:rgba(255,255,255,.45);
+  padding:9px 22px;border-radius:30px;
+  font-size:13px;font-weight:600;
+  font-family:inherit;cursor:pointer;
+  transition:all .25s var(--ease);white-space:nowrap;
+}
+.filter-bar button:hover{border-color:var(--gold);color:var(--gold);background:var(--gold-glow)}
+.filter-bar button.on{
+  background:var(--gold);border-color:var(--gold);
+  color:#0a0a0a;font-weight:800;
+  box-shadow:0 4px 16px rgba(197,160,89,.28);
+}
+
+/* ─ PROCESS SECTION ─ */
+.process-sec{
+  padding:140px 0;
+  background:#0d0d0d;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.process-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:2px;
+  margin-top:64px;
+}
+@media(max-width:860px){.process-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.process-grid{grid-template-columns:1fr}}
+.process-step{
+  background:#111;
+  padding:48px 36px;
+  border:1px solid rgba(255,255,255,.04);
+  position:relative;overflow:hidden;
+  transition:background .3s,border-color .3s;
+}
+.process-step:hover{background:#141414;border-color:var(--line)}
+.process-num{
+  font-size:80px;font-weight:900;
+  color:rgba(197,160,89,.07);
+  line-height:1;
+  position:absolute;top:16px;left:20px;
+  letter-spacing:-4px;
+  transition:color .3s;
+}
+.process-step:hover .process-num{color:rgba(197,160,89,.12)}
+.process-icon{font-size:32px;margin-bottom:24px;position:relative;z-index:1}
+.process-step h3{
+  font-size:18px;font-weight:800;color:var(--white);
+  margin-bottom:12px;position:relative;z-index:1;
+}
+.process-step p{
+  font-size:14px;color:rgba(255,255,255,.45);
+  line-height:1.8;position:relative;z-index:1;
+}
+.process-line{
+  position:absolute;top:0;right:0;left:0;height:2px;
+  background:linear-gradient(to right,var(--gold-d),var(--gold));
+  transform:scaleX(0);transform-origin:right;
+  transition:transform .4s var(--ease);
+}
+.process-step:hover .process-line{transform:scaleX(1)}
+
+/* ─ WHY SECTION ─ */
+.why-sec{padding:140px 0}
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;margin-top:64px;
+}
+@media(max-width:860px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.why-grid{grid-template-columns:1fr}}
+.why-card{
+  background:#0d0d0d;
+  border:1px solid rgba(255,255,255,.05);
+  border-radius:14px;padding:36px 30px;
+  transition:border-color .3s,transform .35s var(--ease),background .3s;
+}
+.why-card:hover{border-color:rgba(197,160,89,.3);transform:translateY(-4px);background:#111}
+.why-icon{font-size:28px;margin-bottom:20px}
+.why-card h4{font-size:17px;font-weight:800;color:var(--white);margin-bottom:10px}
+.why-card p{font-size:14px;color:rgba(255,255,255,.45);line-height:1.8}
+
+/* ─ CTA SECTION ─ */
+.cta-sec{
+  padding:140px 0;
+  position:relative;overflow:hidden;
+}
+.cta-inner{
+  background:linear-gradient(135deg,#0f0f0f 0%,#141414 100%);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:96px 80px;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:48px;
+  position:relative;overflow:hidden;
+}
+.cta-inner::before{
+  content:'';position:absolute;
+  top:-120px;right:-120px;
+  width:500px;height:500px;
+  background:radial-gradient(circle,rgba(197,160,89,.1) 0%,transparent 65%);
+  pointer-events:none;
+}
+.cta-inner::after{
+  content:'';position:absolute;
+  bottom:-80px;left:-80px;
+  width:300px;height:300px;
+  background:radial-gradient(circle,rgba(197,160,89,.06) 0%,transparent 65%);
+  pointer-events:none;
+}
+.cta-text{position:relative;z-index:1}
+.cta-heading{
+  font-size:clamp(32px,4vw,52px);
+  font-weight:900;letter-spacing:-2px;color:var(--white);
+  line-height:1.1;margin-bottom:16px;
+}
+.cta-heading em{font-style:normal;color:var(--gold)}
+.cta-sub{font-size:17px;color:rgba(255,255,255,.5);line-height:1.75;max-width:480px}
+.cta-actions{display:flex;gap:14px;flex-wrap:wrap;flex-shrink:0;position:relative;z-index:1}
+@media(max-width:860px){.cta-inner{flex-direction:column;text-align:center;padding:64px 36px}}
+@media(max-width:480px){.cta-inner{padding:48px 24px}}
+
+/* ─ STATS INLINE ─ */
+.stats-strip{
+  display:flex;gap:0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  overflow:hidden;
+}
+.stat-item{
+  flex:1;padding:40px 32px;
+  text-align:center;
+  border-left:1px solid var(--line);
+  background:#0d0d0d;
+  transition:background .3s;
+}
+.stat-item:first-child{border-left:none}
+.stat-item:hover{background:#111}
+.stat-num{
+  font-size:52px;font-weight:900;color:var(--gold);
+  letter-spacing:-3px;line-height:1;
+  font-family:'Cairo',sans-serif;
+}
+.stat-lbl{font-size:12px;color:rgba(255,255,255,.4);letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
+@media(max-width:680px){
+  .stats-strip{flex-wrap:wrap}
+  .stat-item{flex:0 0 50%;border-top:1px solid var(--line)}
+  .stat-item:nth-child(odd){border-left:none}
+}
+
+/* ─ FOOTER ─ */
+.footer{
+  background:#080808;
+  border-top:1px solid var(--line);
+  padding:96px 0 40px;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  gap:64px;
+  padding-bottom:64px;
+  border-bottom:1px solid var(--line);
+  margin-bottom:40px;
+}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;gap:40px}}
+@media(max-width:560px){.footer-grid{grid-template-columns:1fr}}
+.footer-brand p{
+  color:rgba(255,255,255,.35);font-size:14px;line-height:1.8;
+  max-width:300px;margin-top:20px;
+}
+.footer-col h5{
+  font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  color:var(--gold);margin-bottom:24px;
+}
+.footer-links{display:flex;flex-direction:column;gap:12px}
+.footer-links a{
+  color:rgba(255,255,255,.35);font-size:14px;
+  transition:color .2s,transform .2s;display:inline-block;
+}
+.footer-links a:hover{color:var(--white);transform:translateX(-4px)}
+.footer-bottom{
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+}
+.footer-bottom p{color:rgba(255,255,255,.25);font-size:13px}
+.footer-bottom span{color:var(--gold)}
+
+/* ─ REVEAL ─ */
+.reveal{
+  opacity:0;transform:translateY(36px);
+  transition:opacity .8s var(--ease),transform .8s var(--ease);
+}
+.reveal.vis{opacity:1;transform:none}
+.reveal-left{
+  opacity:0;transform:translateX(40px);
+  transition:opacity .7s var(--ease),transform .7s var(--ease);
+}
+.reveal-left.vis{opacity:1;transform:none}
+
+/* ─ PROGRESS BAR ─ */
+#prog{
+  position:fixed;top:0;inset-inline:0;height:2px;z-index:9999;
+  background:linear-gradient(to left,var(--gold-d),var(--gold),var(--gold-l));
+  transform-origin:right;transform:scaleX(0);will-change:transform;
+}
+
+/* ─ BACK TO TOP ─ */
+#btt{
+  position:fixed;bottom:32px;left:32px;
+  width:46px;height:46px;
+  background:var(--gold);color:#0a0a0a;
+  border-radius:6px;font-size:20px;z-index:500;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;transform:translateY(16px);
+  transition:opacity .3s,transform .3s var(--ease),background .2s;
+  box-shadow:0 8px 28px rgba(197,160,89,.35);
+}
+#btt.show{opacity:1;pointer-events:auto;transform:none}
+#btt:hover{background:var(--gold-l);transform:translateY(-2px)}
+
+/* ─ MISC ─ */
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+  </style>
 </head>
 <body>
-  <div id="page-bg"></div>
-  <div id="page-bg-2"></div>
-  <a href="#main-content" style="position:absolute;top:-40px;right:0;background:var(--gold);color:var(--bg);padding:8px 16px;font-weight:700;z-index:10000;transition:top 0.2s;border-radius:0 0 4px 4px;" onfocus="this.style.top='0'" onblur="this.style.top='-40px'">انتقل للمحتوى الرئيسي</a>
 
-  <div id="page-loader" aria-hidden="true">
-    <div class="loader-inner">
-      <div class="loader-mark">RK</div>
-      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+<!-- Progress -->
+<div id="prog"></div>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-logo">RK<span>.</span></div>
+  <div class="loader-track"><div class="loader-fill"></div></div>
+</div>
+
+<!-- Header -->
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-box">RK</div>
+      <div class="logo-text">
+        <span>رمضان قطب</span>
+        <small>Graphic Studio</small>
+      </div>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="on">الرئيسية</a>
+      <a href="graphic-design.html">الأعمال</a>
+      <a href="about.html">عن رمضان</a>
+      <a href="contact.html">تواصل</a>
+    </nav>
+    <div class="hdr-cta">
+      <a href="contact.html">طلب استشارة ←</a>
+    </div>
+    <button class="burger" id="burger" aria-label="القائمة">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-slides" id="heroSlides">
+    <div class="h-slide on">
+      <div class="h-slide-img" style="background-image:url('images/homepage/hero-slide-1-graphic.webp')"></div>
+    </div>
+    <div class="h-slide">
+      <div class="h-slide-img" style="background-image:url('images/homepage/hero-slide-2-graphic.webp')"></div>
+    </div>
+    <div class="h-slide">
+      <div class="h-slide-img" style="background-image:url('images/homepage/hero-slide-3-graphic.webp')"></div>
     </div>
   </div>
 
-  <header class="site-header" id="site-header">
-    <div class="container nav">
-      <a href="index.html" class="brand">
-        <div class="brand-mark">RK</div>
-        <div class="brand-text"><span>رمضان قطب</span><small>GRAPHIC STUDIO</small></div>
-      </a>
-      <nav class="nav-links" id="nav-links" aria-label="القائمة الرئيسية">
-        <a href="index.html" class="active" aria-current="page">الرئيسية</a>
-        <a href="about.html">عن رمضان</a>
-        <a href="graphic-design.html">أعمال الجرافيك</a>
-        <a href="contact.html">تواصل معي</a>
-      </nav>
-      <div class="nav-actions">
-        <button type="button" class="icon-btn" data-search-trigger aria-label="البحث في المشاريع">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        </button>
-        <a href="contact.html" class="btn btn-primary btn-sm">طلب استشارة</a>
-        <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav-links">
-          <span></span><span></span><span></span>
-        </button>
+  <div class="hero-veil"></div>
+  <div class="hero-line"></div>
+
+  <!-- Numbers strip on left -->
+  <div class="hero-nums">
+    <div class="h-num">
+      <div class="h-num-big"><span id="c1">0</span>+</div>
+      <div class="h-num-label">هوية بصرية</div>
+    </div>
+    <div class="h-num">
+      <div class="h-num-big"><span id="c2">0</span>+</div>
+      <div class="h-num-label">عميل راضٍ</div>
+    </div>
+    <div class="h-num">
+      <div class="h-num-big"><span id="c3">0</span></div>
+      <div class="h-num-label">سنوات خبرة</div>
+    </div>
+  </div>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <div class="h-tag" id="hero-tag">الجرافيك والهوية البصرية</div>
+      <h1 class="h-title" id="hero-title">هوية تجارية<br><em>لا تُنسى</em></h1>
+      <p class="h-sub" id="hero-sub">شعارات، هويات بصرية، مطبوعات، تغليف — كل عمل قصة بصرية تعيش مع علامتك التجارية</p>
+      <div class="h-btns">
+        <a href="graphic-design.html" class="btn btn-gold btn-lg" id="hero-btn">تصفح الأعمال</a>
+        <a href="contact.html" class="btn btn-border btn-lg">طلب استشارة مجانية</a>
       </div>
     </div>
-  </header>
+  </div>
 
-  <main id="main-content">
+  <div class="hero-dots" id="heroDots">
+    <button class="h-dot on" data-i="0"></button>
+    <button class="h-dot" data-i="1"></button>
+    <button class="h-dot" data-i="2"></button>
+  </div>
+  <div class="hero-scroll"><div class="hero-scroll-line"></div><span>مرر</span></div>
+</section>
 
-  <!-- HERO -->
-  <section class="hero" id="hero" aria-label="الشاشة الرئيسية">
-    <div class="hero-bg"></div>
-    <div class="hero-grid" aria-hidden="true"></div>
-    <div class="hero-media-wrap" aria-hidden="true">
-      <div class="hero-media-overlay"></div>
-    </div>
-    <div class="hero-content">
-      <div class="hero-tag" id="hero-tag">الجرافيك والهوية البصرية</div>
-      <h1 class="hero-title" id="hero-title">هوية تجارية<br><em>لا تُنسى</em></h1>
-      <p class="hero-sub" id="hero-sub">شعارات، هويات بصرية، مطبوعات، تغليف — كل عمل قصة بصرية تعيش مع علامتك</p>
-      <div class="hero-btns">
-        <a href="graphic-design.html" class="btn btn-primary btn-lg" id="hero-btn-primary">تصفح أعمال الجرافيك</a>
-        <a href="contact.html" class="btn btn-outline btn-lg">طلب استشارة مجانية</a>
-      </div>
-    </div>
-    <div class="hero-dots-bar" role="tablist" aria-label="التنقل بين الشرائح"></div>
-    <button class="hero-arrow prev" aria-label="الشريحة التالية">›</button>
-    <button class="hero-arrow next" aria-label="الشريحة السابقة">‹</button>
-    <div class="hero-social" aria-label="وسائل التواصل الاجتماعي">
-      <a href="https://wa.me/201112630681" target="_blank" rel="noopener" aria-label="واتساب">
-        <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      </a>
-    </div>
-    <div class="hero-scroll" aria-hidden="true">
-      <div class="hero-scroll-line"></div>
-      <span>مرر</span>
-    </div>
-  </section>
+<!-- Marquee -->
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-track">
+    <div class="marquee-item"><span>هوية بصرية</span><span class="marquee-dot"></span><span>براندينج</span><span class="marquee-dot"></span><span>شعارات</span><span class="marquee-dot"></span><span>مطبوعات</span><span class="marquee-dot"></span><span>تغليف</span><span class="marquee-dot"></span><span>سوشيال ميديا</span><span class="marquee-dot"></span><span>حملات إعلانية</span><span class="marquee-dot"></span></div>
+    <div class="marquee-item"><span>هوية بصرية</span><span class="marquee-dot"></span><span>براندينج</span><span class="marquee-dot"></span><span>شعارات</span><span class="marquee-dot"></span><span>مطبوعات</span><span class="marquee-dot"></span><span>تغليف</span><span class="marquee-dot"></span><span>سوشيال ميديا</span><span class="marquee-dot"></span><span>حملات إعلانية</span><span class="marquee-dot"></span></div>
+    <div class="marquee-item"><span>هوية بصرية</span><span class="marquee-dot"></span><span>براندينج</span><span class="marquee-dot"></span><span>شعارات</span><span class="marquee-dot"></span><span>مطبوعات</span><span class="marquee-dot"></span><span>تغليف</span><span class="marquee-dot"></span><span>سوشيال ميديا</span><span class="marquee-dot"></span><span>حملات إعلانية</span><span class="marquee-dot"></span></div>
+  </div>
+</div>
 
-  <!-- ABOUT STRIP -->
-  <section class="section" id="about-section">
-    <div class="container">
-      <div class="about-grid">
-        <div class="reveal">
-          <span class="eyebrow">عن رمضان قطب</span>
-          <h2 class="headline-lg" style="margin:20px 0;">مصمم جرافيك بـ<br>رؤية <span class="gold">بصرية</span> فريدة</h2>
-          <p class="body-lg" style="margin-bottom:20px;">رمضان قطب مصمم جرافيك ديزاين بخبرة متعمقة في بناء الهويات البصرية. يجمع بين الإبداع التصميمي والفهم التسويقي ليقدم هوية تميّز علامتك التجارية.</p>
-          <p class="body-lg" style="margin-bottom:40px;">سواء كنت تبدأ من الصفر أو تريد تجديد هويتك البصرية — رمضان هو الاختيار الصحيح.</p>
-          <div style="display:flex;gap:14px;flex-wrap:wrap;">
-            <a href="about.html" class="btn btn-primary">تعرف على رمضان</a>
-            <a href="contact.html" class="btn btn-outline">ابدأ مشروعك</a>
-          </div>
+<!-- ABOUT -->
+<section class="about-sec" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <div class="about-eyebrow reveal">عن رمضان قطب</div>
+        <h2 class="about-heading reveal">مصمم جرافيك<br>برؤية <em>بصرية</em> فريدة</h2>
+        <p class="about-body reveal">رمضان قطب مصمم جرافيك ديزاين بخبرة متعمقة في بناء الهويات البصرية. يجمع بين الإبداع التصميمي والفهم التسويقي ليقدم هوية تميّز علامتك التجارية وتعيش معها.</p>
+        <p class="about-body reveal">سواء كنت تبدأ من الصفر أو تريد تجديد هويتك البصرية — رمضان هو الاختيار الصحيح.</p>
+        <div class="about-tags reveal">
+          <span class="about-tag">هوية بصرية</span>
+          <span class="about-tag">شعارات احترافية</span>
+          <span class="about-tag">مطبوعات</span>
+          <span class="about-tag">تغليف منتجات</span>
+          <span class="about-tag">سوشيال ميديا</span>
+          <span class="about-tag">براندينج شامل</span>
         </div>
-        <div class="reveal" style="position:relative;">
-          <div class="about-img-wrap">
-            <img src="images/homepage/about-portrait.webp" alt="رمضان قطب — مصمم جرافيك" width="1000" height="1250" loading="lazy" decoding="async">
-          </div>
-          <div class="about-stat-card">
-            <div class="big">+80</div>
-            <div class="sm">هوية بصرية</div>
-          </div>
+        <div style="display:flex;gap:14px;flex-wrap:wrap" class="reveal">
+          <a href="about.html" class="btn btn-gold">تعرف على رمضان</a>
+          <a href="contact.html" class="btn btn-border">ابدأ مشروعك</a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- SERVICES PILLARS -->
-  <section class="section" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
-    <div class="container">
-      <div class="section-label center reveal">
-        <span class="eyebrow">الخدمات</span>
-        <h2 class="headline-lg">خدمات <span class="gold">الجرافيك</span></h2>
-        <p>كل علامة تجارية تستحق هوية بصرية قوية</p>
+      <div class="about-photo reveal-left">
+        <div class="about-xray"></div>
+        <div class="about-img-wrap">
+          <img src="images/homepage/about-portrait.webp" alt="رمضان قطب — مصمم جرافيك" loading="lazy">
+        </div>
+        <div class="about-badge">
+          <div class="big">+80</div>
+          <div class="lbl">هوية بصرية</div>
+        </div>
       </div>
-      <div class="pillars reveal" style="grid-template-columns:repeat(3,1fr);">
-        <a href="graphic-design.html" class="pillar">
-          <span class="pillar-num">01</span>
-          <span class="pillar-icon">📛</span>
-          <h3>الشعارات والهوية البصرية</h3>
-          <p>تصميم شعارات احترافية وهويات بصرية شاملة تعكس شخصية علامتك التجارية.</p>
-          <div class="pillar-tags"><span>شعارات</span><span>هوية بصرية</span><span>براندينج</span></div>
-          <div class="pillar-link">تصفح الأعمال ←</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES BENTO -->
+<section class="services-sec" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow reveal">خدماتي</div>
+        <h2 class="sec-title reveal">تصميم <em>يحكي</em> قصتك</h2>
+      </div>
+      <a href="graphic-design.html" class="btn btn-border reveal">عرض كل الأعمال ←</a>
+    </div>
+    <!-- ── صور الخدمات الثلاثة ── -->
+    <div class="bento reveal">
+      <a href="graphic-design.html" class="bento-card bento-a">
+        <img src="images/homepage/service-04-graphic-identity.webp" alt="الهوية البصرية والشعارات">
+        <div class="bento-overlay">
+          <div class="bento-cat">01 — الأساس</div>
+          <div class="bento-name">الهوية البصرية والشعارات</div>
+        </div>
+        <div class="bento-arrow">←</div>
+      </a>
+      <a href="graphic-design.html" class="bento-card bento-b">
+        <img src="images/homepage/service-05-graphic-print.webp" alt="المطبوعات والتغليف">
+        <div class="bento-overlay">
+          <div class="bento-cat">02 — الملموس</div>
+          <div class="bento-name">المطبوعات والتغليف</div>
+        </div>
+        <div class="bento-arrow">←</div>
+      </a>
+      <a href="graphic-design.html" class="bento-card bento-c">
+        <img src="images/homepage/service-06-graphic-social.webp" alt="السوشيال ميديا">
+        <div class="bento-overlay">
+          <div class="bento-cat">03 — الرقمي</div>
+          <div class="bento-name">السوشيال ميديا</div>
+        </div>
+        <div class="bento-arrow">←</div>
+      </a>
+    </div>
+
+    <!-- ── شريط أرقام أصغر تحت الصور ── -->
+    <div class="bento-strip reveal">
+      <div class="bento-strip-item">
+        <div class="sn">+80</div>
+        <div class="sl">هوية بصرية</div>
+      </div>
+      <div class="bento-strip-item">
+        <div class="sn">+120</div>
+        <div class="sl">عميل راضٍ</div>
+      </div>
+      <div class="bento-strip-item">
+        <div class="sn">+200</div>
+        <div class="sl">مشروع جرافيك</div>
+      </div>
+      <div class="bento-strip-item">
+        <div class="sn">7</div>
+        <div class="sl">سنوات خبرة</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section class="works-sec" id="works">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow reveal">أحدث الأعمال</div>
+        <h2 class="sec-title reveal">أبرز <em>مشاريع</em> الجرافيك</h2>
+      </div>
+      <a href="graphic-design.html" class="btn btn-border reveal">كل الأعمال ←</a>
+    </div>
+    <div class="filter-wrap reveal">
+      <div class="filter-bar" data-filter-bar></div>
+    </div>
+    <div class="project-grid reveal" data-work-grid="graphic"></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-sec" id="process">
+  <div class="wrap">
+    <div class="sec-head" style="padding-top:0">
+      <div>
+        <div class="sec-eyebrow reveal">منهجية العمل</div>
+        <h2 class="sec-title reveal">كيف <em>نعمل</em> سوياً</h2>
+      </div>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step">
+        <div class="process-line"></div>
+        <div class="process-num">01</div>
+        <div class="process-icon">💬</div>
+        <h3>الاستشارة وفهم العلامة</h3>
+        <p>نتعرف على علامتك التجارية، جمهورك، ومنافسيك — لنبني هوية مختلفة فعلاً.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-line"></div>
+        <div class="process-num">02</div>
+        <div class="process-icon">✏️</div>
+        <h3>التصميم المفاهيمي</h3>
+        <p>نقدم مقترحات تصميمية أولية بأكثر من اتجاه — تختار اللي يعبّر عنك أكتر.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-line"></div>
+        <div class="process-num">03</div>
+        <div class="process-icon">🔧</div>
+        <h3>التطوير والتعديل</h3>
+        <p>نطوّر الاتجاه المختار ونضيف كل التفاصيل — حد ما يكتمل الشكل النهائي.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-line"></div>
+        <div class="process-num">04</div>
+        <div class="process-icon">📦</div>
+        <h3>التسليم الكامل</h3>
+        <p>تستلم ملفات مصادر بكل الصيغ والأحجام — جاهز للطباعة والرقمي والويب.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why-sec" id="why">
+  <div class="wrap">
+    <div class="sec-head" style="padding-top:0">
+      <div>
+        <div class="sec-eyebrow reveal">لماذا رمضان</div>
+        <h2 class="sec-title reveal">ليه <em>RK</em> Graphic Studio؟</h2>
+      </div>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <div class="why-icon">🎯</div>
+        <h4>هوية تعبّر عنك فعلاً</h4>
+        <p>مش مجرد لوجو جميل — هوية بصرية شاملة تحكي قصة علامتك وتميّزها في السوق.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h4>تسليم سريع وملتزم</h4>
+        <p>مواعيد تسليم واضحة من اليوم الأول. مفيش تأخير ومفيش مفاجآت في آخر اللحظة.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💎</div>
+        <h4>جودة لا تتنازل</h4>
+        <p>كل تصميم بيتعمل بمستوى احترافي عالٍ — من أول اسكتش للتسليم النهائي.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🗣️</div>
+        <h4>تواصل مباشر</h4>
+        <p>بتتكلم مع رمضان نفسه — مش موظف أو وسيط. مباشرة وواضح في كل خطوة.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔄</div>
+        <h4>تعديلات بلا حدود</h4>
+        <p>عايز تعديل؟ قوللي. بنعدّل لحد ما تكون راضياً 100% — مفيش تسويف.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📁</div>
+        <h4>ملفات كاملة ومنظمة</h4>
+        <p>تستلم ملفات مصادر بكل الصيغ اللي محتاجها — للطباعة أو الرقمي أو الويب.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stat-item"><div class="stat-num" data-count="80">0</div><div class="stat-lbl">هوية بصرية</div></div>
+  <div class="stat-item"><div class="stat-num" data-count="120">0</div><div class="stat-lbl">عميل راضٍ</div></div>
+  <div class="stat-item"><div class="stat-num" data-count="200">0</div><div class="stat-lbl">مشروع جرافيك</div></div>
+  <div class="stat-item"><div class="stat-num" data-count="7">0</div><div class="stat-lbl">سنوات خبرة</div></div>
+</div>
+
+<!-- CTA -->
+<section class="cta-sec">
+  <div class="wrap">
+    <div class="cta-inner reveal">
+      <div class="cta-text">
+        <h2 class="cta-heading">عايز هوية <em>تميّزك</em>؟</h2>
+        <p class="cta-sub">تواصل معي على الواتساب وقولي عن علامتك التجارية — وهنبني ليها هوية من الأول تفرق.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="https://wa.me/201112630681?text=مرحباً رمضان، عايز تصميم هوية بصرية" target="_blank" rel="noopener" class="btn btn-gold btn-lg">واتساب رمضان 💬</a>
+        <a href="contact.html" class="btn btn-border btn-lg">صفحة التواصل</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-box">RK</div>
+          <div class="logo-text"><span>رمضان قطب</span><small>Graphic Studio</small></div>
         </a>
-        <a href="graphic-design.html" class="pillar">
-          <span class="pillar-num">02</span>
-          <span class="pillar-icon">🖨️</span>
-          <h3>المطبوعات والتغليف</h3>
-          <p>تصميم كروت، كتالوجات، بروشورات، تغليف منتجات، وكل ما يحتاجه عملك المطبوع.</p>
-          <div class="pillar-tags"><span>مطبوعات</span><span>تغليف</span><span>كتالوج</span></div>
-          <div class="pillar-link">تصفح الأعمال ←</div>
-        </a>
-        <a href="graphic-design.html" class="pillar">
-          <span class="pillar-num">03</span>
-          <span class="pillar-icon">📱</span>
-          <h3>السوشيال ميديا والإعلانات</h3>
-          <p>حملات إعلانية متكاملة وتصاميم سوشيال ميديا تبرز علامتك في الفضاء الرقمي.</p>
-          <div class="pillar-tags"><span>سوشيال ميديا</span><span>إعلانات</span><span>حملات</span></div>
-          <div class="pillar-link">تصفح الأعمال ←</div>
-        </a>
+        <p>مصمم جرافيك ديزاين. متخصص في الهوية البصرية، الشعارات، المطبوعات، وحملات السوشيال ميديا.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- SERVICES GRID -->
-  <section class="section" style="padding-bottom:0;">
-    <div class="container">
-      <div class="section-label center reveal">
-        <span class="eyebrow">نماذج من الأعمال</span>
-        <h2 class="headline-lg">خدماتي <span class="gold">المميزة</span></h2>
-        <p>كل خدمة بتوجيه فني محترف ودقة عالية</p>
-      </div>
-    </div>
-    <div class="services-grid reveal">
-      <a href="graphic-design.html" class="service-card">
-        <img src="images/homepage/service-04-graphic-identity.webp" alt="الهوية البصرية والشعارات" width="1280" height="960" loading="lazy" decoding="async">
-        <div class="service-overlay"><div class="service-num">01</div><div class="service-title">الهوية البصرية والشعارات</div></div>
-      </a>
-      <a href="graphic-design.html" class="service-card">
-        <img src="images/homepage/service-05-graphic-print.webp" alt="المطبوعات والتغليف" width="1280" height="960" loading="lazy" decoding="async">
-        <div class="service-overlay"><div class="service-num">02</div><div class="service-title">المطبوعات والتغليف</div></div>
-      </a>
-      <a href="graphic-design.html" class="service-card">
-        <img src="images/homepage/service-06-graphic-social.webp" alt="حملات السوشيال ميديا" width="1280" height="960" loading="lazy" decoding="async">
-        <div class="service-overlay"><div class="service-num">03</div><div class="service-title">حملات السوشيال ميديا</div></div>
-      </a>
-    </div>
-  </section>
-
-  <!-- FEATURED WORKS -->
-  <section class="section">
-    <div class="container">
-      <div class="section-label reveal" style="flex-direction:row;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;margin-bottom:48px;">
-        <div>
-          <span class="eyebrow">أحدث الأعمال</span>
-          <h2 class="headline-lg" style="margin-top:16px;">أبرز <span class="gold">مشاريع الجرافيك</span></h2>
+      <div class="footer-col">
+        <h5>التنقل</h5>
+        <div class="footer-links">
+          <a href="index.html">الرئيسية</a>
+          <a href="about.html">عن رمضان</a>
+          <a href="graphic-design.html">الأعمال</a>
+          <a href="contact.html">تواصل معي</a>
         </div>
-        <a href="graphic-design.html" class="btn btn-ghost btn-sm">عرض جميع الأعمال ←</a>
       </div>
-      <div class="portfolio-grid" data-work-grid="graphic"></div>
-    </div>
-  </section>
-
-  <!-- STATS -->
-  <section class="section-sm" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
-    <div class="container">
-      <div class="stats-row reveal">
-        <div class="stat-cell"><div class="num" data-counter="80">0</div><div class="lbl">هوية بصرية</div></div>
-        <div class="stat-cell"><div class="num" data-counter="120">0</div><div class="lbl">عميل راضٍ</div></div>
-        <div class="stat-cell"><div class="num" data-counter="200">0</div><div class="lbl">مشروع جرافيك</div></div>
-        <div class="stat-cell"><div class="num" data-counter="7">0</div><div class="lbl">سنوات خبرة</div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WORKFLOW -->
-  <section class="section">
-    <div class="container">
-      <div class="section-label center reveal">
-        <span class="eyebrow">منهجية العمل</span>
-        <h2 class="headline-lg">كيف <span class="gold">نعمل سوياً</span></h2>
-        <p>من الفكرة الأولى لحد التسليم النهائي</p>
-      </div>
-      <div class="steps reveal">
-        <div class="step"><div class="step-num">01</div><h4>الاستشارة وفهم العلامة التجارية</h4><p>نتعرف على علامتك التجارية، جمهورك المستهدف، ومنافسيك — لنبني هوية مختلفة فعلاً.</p></div>
-        <div class="step"><div class="step-num">02</div><h4>التصميم المفاهيمي</h4><p>نقدم مقترحات تصميمية أولية بأكثر من اتجاه — تختار اللي يعبّر عنك أكتر.</p></div>
-        <div class="step"><div class="step-num">03</div><h4>التطوير والتعديل</h4><p>نطوّر الاتجاه المختار ونضيف التفاصيل والتطبيقات — حد ما يكتمل الشكل النهائي.</p></div>
-        <div class="step"><div class="step-num">04</div><h4>التسليم الكامل</h4><p>تستلم ملفات مصادر بكل الصيغ والأحجام — جاهز للطباعة والرقمي والويب.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHY ME -->
-  <section class="section" style="background:var(--bg-2);border-top:1px solid var(--line);">
-    <div class="container">
-      <div class="section-label center reveal">
-        <span class="eyebrow">لماذا رمضان</span>
-        <h2 class="headline-lg">ليه <span class="gold">رمضان قطب</span>؟</h2>
-        <p>خبرة حقيقية + إبداع حقيقي + نتائج واضحة</p>
-      </div>
-      <div class="features reveal">
-        <div class="feature"><div class="feature-icon">🎯</div><h4>هوية تعبّر عنك فعلاً</h4><p>مش مجرد لوجو جميل — هوية بصرية شاملة تحكي قصة علامتك التجارية.</p></div>
-        <div class="feature"><div class="feature-icon">⚡</div><h4>تسليم سريع وملتزم</h4><p>مواعيد تسليم واضحة من اليوم الأول. مفيش تأخير ومفيش مفاجآت.</p></div>
-        <div class="feature"><div class="feature-icon">💎</div><h4>جودة لا تتنازل</h4><p>كل تصميم بيتعمل بمستوى احترافي عالٍ من أول اسكتش للتسليم النهائي.</p></div>
-        <div class="feature"><div class="feature-icon">🗣️</div><h4>تواصل مباشر</h4><p>تتكلم مع رمضان نفسه — مش موظف أو وسيط. مباشرة وواضح.</p></div>
-        <div class="feature"><div class="feature-icon">🔄</div><h4>تعديلات بلا حدود</h4><p>عايز تعديل؟ قوللي. نعدّل لحد ما تكون راضياً 100%.</p></div>
-        <div class="feature"><div class="feature-icon">📁</div><h4>ملفات كاملة ومنظمة</h4><p>تستلم ملفات مصادر بكل الصيغ اللي محتاجها للطباعة أو الرقمي.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section-sm" style="background:var(--bg-2);border-top:1px solid var(--line);">
-    <div class="container">
-      <div class="cta-banner reveal">
-        <div>
-          <h2 class="headline-md" style="margin-bottom:12px;">عايز هوية <span class="gold">تميّزك</span>؟</h2>
-          <p class="body-md">تواصل معي على الواتساب وقولي عن علامتك التجارية — وهنبني ليها هوية من الأول.</p>
+      <div class="footer-col">
+        <h5>الخدمات</h5>
+        <div class="footer-links">
+          <a href="graphic-design.html">هوية بصرية وشعارات</a>
+          <a href="graphic-design.html">مطبوعات وتغليف</a>
+          <a href="graphic-design.html">سوشيال ميديا</a>
+          <a href="graphic-design.html">حملات إعلانية</a>
         </div>
-        <div style="display:flex;gap:14px;flex-wrap:wrap;flex-shrink:0;">
-          <a href="https://wa.me/201112630681?text=مرحباً رمضان، عايز تصميم هوية بصرية" target="_blank" rel="noopener" class="btn btn-primary btn-lg">واتساب رمضان مباشر 💬</a>
-          <a href="contact.html" class="btn btn-outline btn-lg">صفحة التواصل</a>
+      </div>
+      <div class="footer-col">
+        <h5>تواصل مباشر</h5>
+        <div class="footer-links">
+          <a href="tel:01112630681">📞 01112630681</a>
+          <a href="https://wa.me/201112630681" target="_blank" rel="noopener">💬 واتساب مباشر</a>
+          <a href="contact.html">✉️ استشارة مجانية</a>
         </div>
       </div>
     </div>
-  </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top">
-        <div>
-          <a href="index.html" class="brand" style="margin-bottom:0;">
-            <div class="brand-mark">RK</div>
-            <div class="brand-text"><span>رمضان قطب</span><small>GRAPHIC STUDIO</small></div>
-          </a>
-          <p class="footer-brand-desc">مصمم جرافيك ديزاين. متخصص في الهوية البصرية، الشعارات، المطبوعات، وحملات السوشيال ميديا.</p>
-        </div>
-        <div class="footer-col"><h5>التنقل</h5><div class="footer-links"><a href="index.html">الرئيسية</a><a href="about.html">عن رمضان</a><a href="graphic-design.html">أعمال الجرافيك</a><a href="contact.html">تواصل معي</a></div></div>
-        <div class="footer-col"><h5>الخدمات</h5><div class="footer-links"><a href="graphic-design.html">هوية بصرية وشعارات</a><a href="graphic-design.html">مطبوعات وتغليف</a><a href="graphic-design.html">سوشيال ميديا</a><a href="graphic-design.html">حملات إعلانية</a></div></div>
-        <div class="footer-col"><h5>تواصل مباشر</h5><div class="footer-links"><a href="tel:01112630681">📞 01112630681</a><a href="https://wa.me/201112630681" target="_blank" rel="noopener">💬 واتساب مباشر</a><a href="contact.html">✉️ استشارة مجانية</a></div></div>
-      </div>
-      <div class="footer-bottom">
-        <p>© <span data-year>2025</span> رمضان قطب — جميع الحقوق محفوظة.</p>
-        <p>Designed by <span>RK Graphic Studio</span></p>
-      </div>
+    <div class="footer-bottom">
+      <p>© <span data-year></span> رمضان قطب — جميع الحقوق محفوظة.</p>
+      <p>Designed by <span>RK Graphic Studio</span></p>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="js/projects-data.js?v=6" defer></script>
-  <script src="js/page-bg.js?v=6" defer></script>
-  <script src="js/projects.js?v=6" defer></script>
-  <script src="js/video-covers.js?v=6" defer></script>
-  <script src="js/main.js?v=6" defer></script>
-  <script src="js/slides-graphic.js?v=6" defer></script>
-  <script src="js/home.js?v=6" defer></script>
-  <script src="js/rk-fx.js?v=6" defer></script>
+<button id="btt" aria-label="العودة للأعلى">↑</button>
+
+<!-- SCRIPTS -->
+<script src="js/projects-data.js?v=6" defer></script>
+<script src="js/projects-new.js?v=6" defer></script>
+<script src="js/rk-fx.js?v=6" defer></script>
+
+<script>
+(function(){
+'use strict';
+
+/* ── Loader ── */
+const loader = document.getElementById('loader');
+window.addEventListener('load', () => setTimeout(() => loader.classList.add('out'), 400));
+setTimeout(() => loader.classList.add('out'), 2800);
+
+/* ── Year ── */
+document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
+
+/* ── Header ── */
+const hdr = document.getElementById('hdr');
+window.addEventListener('scroll', () => hdr.classList.toggle('scrolled', scrollY > 60), {passive:true});
+
+/* ── Burger ── */
+const burger = document.getElementById('burger');
+const nav    = document.getElementById('nav');
+burger.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  burger.classList.toggle('open', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  nav.classList.remove('open');
+  burger.classList.remove('open');
+  document.body.style.overflow = '';
+}));
+
+/* ── Hero Slides ── */
+const SLIDES = [
+  {tag:'بوستر / إعلان إبداعي',title:'تصميم إعلاني <em>قوي</em>',sub:'أفكار إبداعية وتحويلها إلى تصاميم إعلانية قوية ومؤثرة',btn:'تصفح أعمال الجرافيك',href:'graphic-design.html',dur:6},
+  {tag:'الجرافيك والهوية البصرية',title:'هوية تجارية <em>لا تُنسى</em>',sub:'شعارات، هويات بصرية، مطبوعات، تغليف — كل عمل قصة بصرية تعيش مع علامتك',btn:'تصفح أعمال الجرافيك',href:'graphic-design.html',dur:6},
+  {tag:'تصميمات خاصة بشركة/خدمة',title:'تصميم متكامل <em>لعلامتك</em> التجارية',sub:'من الهوية والمطبوعات إلى المواد الدعائية — كل التفاصيل في شكل بصري متناسق',btn:'تصفح أعمال الجرافيك',href:'graphic-design.html',dur:6},
+];
+const slides = document.querySelectorAll('.h-slide');
+const dots   = document.querySelectorAll('.h-dot');
+const tagEl  = document.getElementById('hero-tag');
+const titEl  = document.getElementById('hero-title');
+const subEl  = document.getElementById('hero-sub');
+const btnEl  = document.getElementById('hero-btn');
+let cur = 0, timer;
+
+function goTo(idx) {
+  clearTimeout(timer);
+  slides[cur].classList.remove('on');
+  dots[cur].classList.remove('on');
+  cur = ((idx % SLIDES.length) + SLIDES.length) % SLIDES.length;
+  slides[cur].classList.add('on');
+  dots[cur].classList.add('on');
+  const s = SLIDES[cur];
+  tagEl.textContent = s.tag;
+  titEl.innerHTML   = s.title;
+  subEl.textContent = s.sub;
+  btnEl.textContent = s.btn;
+  btnEl.href        = s.href;
+  timer = setTimeout(() => goTo(cur + 1), s.dur * 1000);
+}
+dots.forEach(d => d.addEventListener('click', () => goTo(+d.dataset.i)));
+let tx = 0;
+document.querySelector('.hero').addEventListener('touchstart', e => { tx = e.changedTouches[0].screenX; }, {passive:true});
+document.querySelector('.hero').addEventListener('touchend', e => {
+  const d = tx - e.changedTouches[0].screenX;
+  if (Math.abs(d) > 50) goTo(d > 0 ? cur + 1 : cur - 1);
+}, {passive:true});
+timer = setTimeout(() => goTo(1), SLIDES[0].dur * 1000);
+
+/* ── Hero counters animation ── */
+function countUp(el, target, dur) {
+  let start = 0, s;
+  const step = ts => {
+    if (!s) s = ts;
+    const prog = Math.min((ts - s) / dur, 1);
+    el.textContent = Math.floor(prog * target);
+    if (prog < 1) requestAnimationFrame(step);
+    else el.textContent = target;
+  };
+  requestAnimationFrame(step);
+}
+countUp(document.getElementById('c1'), 80, 1800);
+countUp(document.getElementById('c2'), 120, 2000);
+countUp(document.getElementById('c3'), 7, 1200);
+
+/* ── Progress bar ── */
+const prog = document.getElementById('prog');
+window.addEventListener('scroll', () => {
+  const pct = scrollY / (document.documentElement.scrollHeight - innerHeight);
+  prog.style.transform = `scaleX(${pct})`;
+}, {passive:true});
+
+/* ── Reveal ── */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('vis'); obs.unobserve(e.target); } });
+}, {threshold:.12});
+document.querySelectorAll('.reveal,.reveal-left').forEach(el => obs.observe(el));
+
+/* ── Counter strip ── */
+const cobs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const t = +e.target.dataset.count;
+      countUp(e.target, t, 1600);
+      cobs.unobserve(e.target);
+    }
+  });
+}, {threshold:.5});
+document.querySelectorAll('[data-count]').forEach(el => cobs.observe(el));
+
+/* ── Back to top ── */
+const btt = document.getElementById('btt');
+window.addEventListener('scroll', () => btt.classList.toggle('show', scrollY > 400), {passive:true});
+btt.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+
+})();
+</script>
+
 </body>
 </html>

@@ -1,9 +1,9 @@
-/* بيانات مشاريع الجرافيك — موقع رمضان قطب الجرافيك */
+/* بيانات مشاريع الجرافيك — رمضان قطب */
 const PROJECTS_FALLBACK = [
   {
     "id": "alwaad-upvc-هوية-تجارية-414c5741",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "ALWAAD UPVC — هوية تجارية",
     "location": "",
     "area": null,
@@ -30,7 +30,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "aurion-x-born-from-imagination-41555249",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "AURION X — Born from Imagination",
     "location": "",
     "area": null,
@@ -58,7 +58,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "catalytic-ckean-air-هوية-تجارية-43415441",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "CATALYTIC CKEAN AIR  - هوية تجارية",
     "location": "",
     "area": null,
@@ -85,7 +85,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "dx-hardware-هوية-تجارية-44582048",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "DX Hardware — هوية تجارية",
     "location": "",
     "area": null,
@@ -113,7 +113,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "kotb-metal-upvc-حملة-اعلانية-للصيانه-4b4f5442",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "KOTB METAL UPVC حملة اعلانية للصيانه",
     "location": "",
     "area": null,
@@ -139,7 +139,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "kotb-metal-upvc-حملة-اعلانيه-4b4f5442",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "KOTB METAL UPVC حملة اعلانيه",
     "location": "",
     "area": null,
@@ -166,7 +166,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "kotb-metal-upvc-سوشيال-ميديا-4b4f5442",
     "discipline": "graphic",
-    "category": "",
+    "category": "سوشيال ميديا",
     "title": "KOTB METAL UPVC سوشيال ميديا",
     "location": "",
     "area": null,
@@ -194,7 +194,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "kotb-metal-upvc-هوية-تجارية-4b4f5442",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "KOTB METAL UPVC — هوية تجارية",
     "location": "",
     "area": null,
@@ -223,7 +223,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "lecce-هوية-تجارية-4c454343",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "LECCE-هوية تجارية",
     "location": "",
     "area": null,
@@ -250,7 +250,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "milano-footwear-industries-adidas-هوية-تجارية-4d494c41",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "MILANO FOOTWEAR INDUSTRIES- ADIDAS - هوية تجارية",
     "location": "",
     "area": null,
@@ -278,7 +278,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "milano-footwear-industries-nike-lifestyle-mockups-4d494c41",
     "discipline": "graphic",
-    "category": "",
+    "category": "مطبوعات",
     "title": "MILANO FOOTWEAR INDUSTRIES- Nike - Lifestyle Mockups",
     "location": "",
     "area": null,
@@ -304,7 +304,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "milano-footwear-industries-nike-air-4d494c41",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "MILANO FOOTWEAR INDUSTRIES- Nike Air",
     "location": "",
     "area": null,
@@ -337,7 +337,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "milano-footwear-industries-nike-air-2-4d494c41",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "MILANO FOOTWEAR INDUSTRIES- Nike Air 2",
     "location": "",
     "area": null,
@@ -363,7 +363,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "morgan-coffee-سوشيال-ميديا-4d6f7267",
     "discipline": "graphic",
-    "category": "",
+    "category": "سوشيال ميديا",
     "title": "Morgan Coffee — سوشيال ميديا",
     "location": "",
     "area": null,
@@ -389,7 +389,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "nike-milano-lifestyle-mockups-4e696b65",
     "discipline": "graphic",
-    "category": "",
+    "category": "مطبوعات",
     "title": "Nike Milano — Lifestyle Mockups",
     "location": "",
     "area": null,
@@ -414,7 +414,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "pharaohs-fc-شعار-وقميص-فريق-50686172",
     "discipline": "graphic",
-    "category": "",
+    "category": "شعارات",
     "title": "Pharaohs FC — شعار وقميص فريق",
     "location": "",
     "area": null,
@@ -439,7 +439,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "ألبوم-راب-الأدغال-cover-design-d8a3d984",
     "discipline": "graphic",
-    "category": "",
+    "category": "سوشيال ميديا",
     "title": "ألبوم راب الأدغال — Cover Design",
     "location": "",
     "area": null,
@@ -464,7 +464,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "إعلانات-السوشيال-ميديا-التعليمية-d8a5d8b9",
     "discipline": "graphic",
-    "category": "",
+    "category": "سوشيال ميديا",
     "title": "إعلانات السوشيال ميديا التعليمية",
     "location": "",
     "area": null,
@@ -489,7 +489,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "تصميم-ابداعى-لمنتج-mahgoub-d8aad8b5",
     "discipline": "graphic",
-    "category": "",
+    "category": "مطبوعات",
     "title": "تصميم ابداعى لمنتج-MAHGOUB",
     "location": "",
     "area": null,
@@ -513,7 +513,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "حكاية-الخبز-المصري-تصميم-هوية-وتغليف-منتج-d8add983",
     "discipline": "graphic",
-    "category": "",
+    "category": "تغليف",
     "title": "حكاية الخبز المصري  تصميم هوية وتغليف منتج",
     "location": "",
     "area": null,
@@ -539,7 +539,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "خيمة-وناسة-رمضان-2025-d8aed98a",
     "discipline": "graphic",
-    "category": "",
+    "category": "سوشيال ميديا",
     "title": "خيمة وناسة رمضان 2025",
     "location": "",
     "area": null,
@@ -594,7 +594,7 @@ const PROJECTS_FALLBACK = [
   {
     "id": "هوية-تجارية-المصرية-الهندسيه-upvc-d987d988",
     "discipline": "graphic",
-    "category": "",
+    "category": "هوية بصرية",
     "title": "هوية تجارية  المصرية الهندسيه UPVC",
     "location": "",
     "area": null,
